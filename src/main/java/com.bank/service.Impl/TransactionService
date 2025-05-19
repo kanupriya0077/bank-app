@@ -1,0 +1,11 @@
+package com.bank.Bank.service.Impl;
+
+import com.bank.Bank.dto.TransactionDto;
+import com.bank.Bank.entity.Transaction;
+import org.springframework.stereotype.Service;
+
+
+public interface TransactionService {
+    void saveTransaction(TransactionDto transactionDto);
+
+}
